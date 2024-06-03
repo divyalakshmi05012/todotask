@@ -1,0 +1,100 @@
+
+.todo{
+  text-align: center;
+  color: rgb(6, 148, 124);
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 60px;
+
+}
+.inputbox{
+  display:flex;
+  flex-direction: row;
+  margin-top: 4%;
+  
+}
+input{
+  width: 400px;
+  margin: 20px;
+  border: 1.5px outset rgb(6, 148, 124) !important ;
+  border-radius: 5px;
+}
+.inputone{
+  margin-left: 15%;
+}
+.button{
+  height: 30px;
+  width: 150px;
+  margin-top: 1.5%;
+  text-align: center;
+  background-color:rgb(6, 148, 124) ;
+
+}
+#dropdown-basic{
+  background-color:palevioletred ;
+  border: none;
+}
+.title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.h6{
+  margin-left: 180px;
+  font-size: large;
+}
+.dropdown{
+  margin-right: 100px;
+  height: 50px;
+}
+.status{
+  display: flex;
+  flex-direction: row;
+}
+.not-completed-background {
+  background-color:palevioletred;
+  color: white;
+  border: 1px solid rgb(245, 177, 200);
+}
+
+.completed-background {
+  background-color:  rgb(6, 148, 124);
+  color: white;
+  border: 1px solid rgb(116, 199, 185);
+}
+.select-box{
+  border: none;
+}
+.card{
+  margin: 30px;
+  background-color: rgb(177, 238, 228) ;
+  margin-left: 50px;
+  width:300px !important;
+  height: 200px !important;
+  font-size: small;
+ 
+}
+.card-div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 10%;
+}
+.edit{
+  background-color:rgb(6, 148, 124) ;
+  height: 30px;
+  border: none;
+  width: 80px;
+}
+.delete{
+  background-color: rgb(248, 115, 7);
+  height: 30px;
+  border: none;
+  width: 80px;
+}
+.button-div{
+  margin-left: 25%;
+  text-align: center;
+  margin-top: 30px;
+}
